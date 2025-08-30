@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd0d01c-8a0a-4eca-8a41-cf0d46d75a2b" name="Changes" comment="Change in comments">
+      <change afterPath="$PROJECT_DIR$/gigi_final_project/pages/article_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gigi_final_project/tests/test_article_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gigi_final_project/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/gigi_final_project/pages/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigi_final_project/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/gigi_final_project/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gigi_final_project/tests/data_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/gigi_final_project/tests/data_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gigi_final_project/tests/test_home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/gigi_final_project/tests/test_home_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,18 @@
     "Python tests.Python tests for login_test.Testlogin.executor": "Run",
     "Python tests.Python tests for login_test.Testlogin.test_correct_login.executor": "Run",
     "Python tests.Python tests for login_test.loginTest.test_correct_login.executor": "Run",
+    "Python tests.Python tests for test_article_page.TestArticlePage.executor": "Run",
+    "Python tests.Python tests for test_article_page.TestArticlePage.test_article_see_all_button.executor": "Run",
+    "Python tests.Python tests for test_article_page.TestArticlePage.test_bible_series_headers.executor": "Run",
+    "Python tests.Python tests for test_article_page.TestArticlePage.test_faith_series_headers.executor": "Run",
+    "Python tests.Python tests for test_article_page.TestArticlePage.test_family_series_headers.executor": "Run",
+    "Python tests.Python tests for test_article_page.TestArticlePage.test_feature_publication_science.executor": "Run",
+    "Python tests.Python tests for test_article_page.TestArticlePage.test_happiness_series_headers.executor": "Run",
+    "Python tests.Python tests for test_article_page.TestArticlePage.test_history_series_headers.executor": "Run",
+    "Python tests.Python tests for test_article_page.TestArticlePage.test_science_series_headers.executor": "Run",
+    "Python tests.Python tests for test_article_page.TestArticlePage.test_teen_series_headers.executor": "Run",
     "Python tests.Python tests for test_home_page.TestHomePage.executor": "Run",
+    "Python tests.Python tests for test_home_page.TestHomePage.test_about_us_text.executor": "Run",
     "Python tests.Python tests for test_home_page.TestHomePage.test_bible_teachings_main.executor": "Run",
     "Python tests.Python tests for test_home_page.TestHomePage.test_copyright_year.executor": "Run",
     "Python tests.Python tests for test_home_page.TestHomePage.test_footer_data_links.executor": "Run",
@@ -65,9 +80,14 @@
     "Python tests.Python tests for test_home_page.TestHomePage.test_footer_links_match.executor": "Run",
     "Python tests.Python tests for test_home_page.TestHomePage.test_footer_links_match2.executor": "Run",
     "Python tests.Python tests for test_home_page.TestHomePage.test_footer_links_number.executor": "Run",
+    "Python tests.Python tests for test_home_page.TestHomePage.test_language_number.executor": "Run",
     "Python tests.Python tests for test_home_page.TestHomePage.test_quicktest.executor": "Run",
+    "Python tests.Python tests for test_home_page.TestHomePage.test_site_language_number.executor": "Run",
+    "Python tests.Python tests for test_home_page.TestHomePage.test_site_opens_in_different_languages.executor": "Run",
     "Python tests.Python tests for test_home_page.TestHomePage.test_test2.executor": "Run",
     "Python tests.Python tests for test_local.Testlogin.test_correct_login.executor": "Run",
+    "Python tests.Python tests for test_video_page.TestVideoPage.test_play_video.executor": "Run",
+    "Python tests.Python tests for test_video_page.TestVideoPage.test_video.executor": "Run",
     "Python tests.Python tests in test_data.py.executor": "Debug",
     "Python.conftest.executor": "Run",
     "Python.home_page.executor": "Run",
@@ -92,8 +112,8 @@
       <recent name="C:\Users\Gigi work\PycharmProjects\gigi_final_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_home_page.TestHomePage.test_footer_data_validation_links">
-    <configuration name="Python tests for test_home_page.TestHomePage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_article_page.TestArticlePage.test_feature_publication_history">
+    <configuration name="Python tests for test_article_page.TestArticlePage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,11 +124,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home_page.TestHomePage&quot;" />
+      <option name="_new_target" value="&quot;test_article_page.TestArticlePage&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_home_page.TestHomePage.test_copyright_year" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_article_page.TestArticlePage.test_feature_publication_bible" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,11 +139,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_copyright_year&quot;" />
+      <option name="_new_target" value="&quot;test_article_page.TestArticlePage.test_feature_publication_bible&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_home_page.TestHomePage.test_footer_data_text" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_article_page.TestArticlePage.test_feature_publication_history" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,11 +154,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_footer_data_text&quot;" />
+      <option name="_new_target" value="&quot;test_article_page.TestArticlePage.test_feature_publication_history&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_home_page.TestHomePage.test_footer_data_validation_links" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_article_page.TestArticlePage.test_feature_publication_science" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,11 +169,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_footer_data_validation_links&quot;" />
+      <option name="_new_target" value="&quot;test_article_page.TestArticlePage.test_feature_publication_science&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_home_page.TestHomePage.test_footer_links_match" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_article_page.TestArticlePage.test_history_series_headers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,17 +184,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_footer_links_match&quot;" />
+      <option name="_new_target" value="&quot;test_article_page.TestArticlePage.test_history_series_headers&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage.test_footer_data_validation_links" />
-        <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage.test_footer_links_match" />
-        <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage.test_copyright_year" />
-        <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage" />
-        <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage.test_footer_data_text" />
+        <item itemvalue="Python tests.Python tests for test_article_page.TestArticlePage.test_feature_publication_history" />
+        <item itemvalue="Python tests.Python tests for test_article_page.TestArticlePage.test_feature_publication_bible" />
+        <item itemvalue="Python tests.Python tests for test_article_page.TestArticlePage" />
+        <item itemvalue="Python tests.Python tests for test_article_page.TestArticlePage.test_feature_publication_science" />
+        <item itemvalue="Python tests.Python tests for test_article_page.TestArticlePage.test_history_series_headers" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756102852857</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Change in comments">
+      <option name="closed" value="true" />
+      <created>1756103745747</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756103745747</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,5 +288,16 @@
     <MESSAGE value="inclusion of comments" />
     <MESSAGE value="Change in comments" />
     <option name="LAST_COMMIT_MESSAGE" value="Change in comments" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gigi_final_project/pages/article_page.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -2,12 +2,18 @@ import pytest
 from datetime import datetime
 from gigi_final_project.pages.home_page import jwHomePage
 from gigi_final_project.tests.conftest import setup_jw_org
-from gigi_final_project.tests.data_file import FOOTER_TEXT, FOOTER_LINKS, footer_test_cases
+from gigi_final_project.tests.data_file import FOOTER_TEXTS, FOOTER_LINKS, ABOUT_US, footer_test_cases
 
 
 
 
 class TestHomePage:
+
+    def test_site_language_number(self, setup_jw_org):
+        # Goal - check if site language amount matches actual languages that site is translated (1105 languages for 8/29/2025)
+        home_page = jwHomePage(setup_jw_org)
+        current_amount_of_languages = home_page.get_number_of_languages_that_site_is_translated()
+        assert current_amount_of_languages >= 1105, f"Some Languages are missing. expected: 1105 | actual: {current_amount_of_languages}"
 
     @pytest.mark.parametrize("text, expected_url", footer_test_cases)
     def test_footer_links_match(self, setup_jw_org, text, expected_url):
@@ -28,7 +34,7 @@ class TestHomePage:
         # Goal - check if text on footer matches expected texts
         home_page = jwHomePage(setup_jw_org)
         footer_texts = home_page.get_footer_texts()
-        assert footer_texts == FOOTER_TEXT, f"There is mismatch between expected footer text and actual footer text"
+        assert footer_texts == FOOTER_TEXTS, f"There is mismatch between expected footer text and actual footer text"
 
     def test_footer_data_validation_links(self, setup_jw_org):
         # Goal - check if links on footer matches expected links
@@ -44,3 +50,8 @@ class TestHomePage:
         count_text = len(footer_texts)
         count_link = len(footer_links)
         assert count_text == count_link, f"in footer expected to have {count_text} number of links, but actually presented are only {count_link}"
+
+    def test_about_us_text(self, setup_jw_org):
+        home_page = jwHomePage(setup_jw_org)
+        about_us = home_page.get_about_us_text()
+        assert about_us == ABOUT_US, f"\n\nThere is mismatch from expected text. It should be \n*****************\n{ABOUT_US}\n*****************\n\n"
