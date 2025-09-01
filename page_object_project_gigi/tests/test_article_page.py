@@ -1,9 +1,8 @@
 import time
-
 import pytest
-from gigi_final_project.pages.article_page import jwArticlePage
-from gigi_final_project.tests.conftest import setup_jw_org
-from gigi_final_project.tests.data_file import SCIENCE_SERIES, BIBLE_SERIES, HAPPINESS_SERIES, FAMILY_SERIES, \
+from page_object_project_gigi.pages.article_page import jwArticlePage
+from page_object_project_gigi.tests.conftest import setup_jw_org
+from page_object_project_gigi.tests.data_file import SCIENCE_SERIES, BIBLE_SERIES, HAPPINESS_SERIES, FAMILY_SERIES, \
     TEEN_SERIES, FAITH_SERIES, HISTORY_SERIES, SCIENCE_PUBLICATIONS
 
 

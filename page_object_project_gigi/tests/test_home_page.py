@@ -1,8 +1,8 @@
 import pytest
 from datetime import datetime
-from gigi_final_project.pages.home_page import jwHomePage
-from gigi_final_project.tests.conftest import setup_jw_org
-from gigi_final_project.tests.data_file import FOOTER_TEXTS, FOOTER_LINKS, ABOUT_US, footer_test_cases
+from page_object_project_gigi.pages.home_page import jwHomePage
+from page_object_project_gigi.tests.conftest import setup_jw_org
+from page_object_project_gigi.tests.data_file import FOOTER_TEXTS, FOOTER_LINKS, ABOUT_US, footer_test_cases
 
 
 

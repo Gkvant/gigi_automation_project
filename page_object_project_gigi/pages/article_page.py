@@ -30,7 +30,7 @@ class jwArticlePage:
         return self.page.query_selector_all(".sect-syn-header-button")
 
     def get_header_text(self):
-        time.sleep(1)
+        self.page.wait_for_selector("h1")
         return self.page.query_selector("h1").inner_text()
 
     def get_item_by_(self, name):
