@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd0d01c-8a0a-4eca-8a41-cf0d46d75a2b" name="Changes" comment="Added new page tests">
-      <change afterPath="$PROJECT_DIR$/page_object_project_gigi/pages/meeting_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_object_project_gigi/tests/test_meeting_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigi_final_project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigi_final_project/pages/article_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/pages/article_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigi_final_project/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/pages/home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigi_final_project/requirments_pytest" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/requirments_pytest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigi_final_project/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigi_final_project/tests/data_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/tests/data_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigi_final_project/tests/test_article_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/tests/test_article_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gigi_final_project/tests/test_home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/tests/test_home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object_project_gigi/pages/meeting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/pages/meeting_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object_project_gigi/tests/test_meeting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/tests/test_meeting_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +93,11 @@
     "Python tests.Python tests for test_home_page.TestHomePage.test_site_opens_in_different_languages.executor": "Run",
     "Python tests.Python tests for test_home_page.TestHomePage.test_test2.executor": "Run",
     "Python tests.Python tests for test_local.Testlogin.test_correct_login.executor": "Run",
+    "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_circuit_assemblies_tab.executor": "Debug",
+    "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_regional_conventions_tab.executor": "Debug",
     "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_search_meeting.executor": "Run",
+    "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_search_result.executor": "Run",
+    "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_weekly_meetings_tab.executor": "Run",
     "Python tests.Python tests for test_video_page.TestVideoPage.test_play_video.executor": "Run",
     "Python tests.Python tests for test_video_page.TestVideoPage.test_video.executor": "Run",
     "Python tests.Python tests in test_data.py.executor": "Debug",
@@ -128,7 +124,7 @@
       <recent name="C:\Users\Gigi work\PycharmProjects\gigi_final_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_home_page.TestHomePage.test_site_language_number">
+  <component name="RunManager" selected="Python tests.Python tests for test_meeting_page.TestMeetingPage.test_search_result">
     <configuration name="Python tests for page_object_project_gigi.tests.test_article_page.TestArticlePage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
@@ -144,7 +140,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for page_object_project_gigi.tests.test_article_page.TestArticlePage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_meeting_page.TestMeetingPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,11 +151,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;page_object_project_gigi.tests.test_article_page.TestArticlePage&quot;" />
+      <option name="_new_target" value="&quot;test_meeting_page.TestMeetingPage&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for page_object_project_gigi.tests.test_article_page.TestArticlePage.test_feature_publication_history" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_meeting_page.TestMeetingPage.test_circuit_assemblies_tab" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,11 +166,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;page_object_project_gigi.tests.test_article_page.TestArticlePage.test_feature_publication_history&quot;" />
+      <option name="_new_target" value="&quot;test_meeting_page.TestMeetingPage.test_circuit_assemblies_tab&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for page_object_project_gigi.tests.test_article_page.TestArticlePage.test_feature_publication_science" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_meeting_page.TestMeetingPage.test_regional_conventions_tab" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,11 +181,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;page_object_project_gigi.tests.test_article_page.TestArticlePage.test_feature_publication_science&quot;" />
+      <option name="_new_target" value="&quot;test_meeting_page.TestMeetingPage.test_regional_conventions_tab&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for page_object_project_gigi.tests.test_meeting_page.TestMeetingPage.test_search_meeting" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_meeting_page.TestMeetingPage.test_search_result" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,11 +196,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;page_object_project_gigi.tests.test_meeting_page.TestMeetingPage.test_search_meeting&quot;" />
+      <option name="_new_target" value="&quot;test_meeting_page.TestMeetingPage.test_search_result&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_home_page.TestHomePage.test_site_language_number" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_meeting_page.TestMeetingPage.test_weekly_meetings_tab" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,17 +211,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_site_language_number&quot;" />
+      <option name="_new_target" value="&quot;test_meeting_page.TestMeetingPage.test_weekly_meetings_tab&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage.test_site_language_number" />
-        <item itemvalue="Python tests.Python tests for page_object_project_gigi.tests.test_meeting_page.TestMeetingPage.test_search_meeting" />
-        <item itemvalue="Python tests.Python tests for page_object_project_gigi.tests.test_article_page.TestArticlePage" />
-        <item itemvalue="Python tests.Python tests for page_object_project_gigi.tests.test_article_page.TestArticlePage.test_feature_publication_history" />
-        <item itemvalue="Python tests.Python tests for page_object_project_gigi.tests.test_article_page.TestArticlePage" />
+        <item itemvalue="Python tests.Python tests for test_meeting_page.TestMeetingPage.test_search_result" />
+        <item itemvalue="Python tests.Python tests for test_meeting_page.TestMeetingPage" />
+        <item itemvalue="Python tests.Python tests for test_meeting_page.TestMeetingPage.test_circuit_assemblies_tab" />
+        <item itemvalue="Python tests.Python tests for test_meeting_page.TestMeetingPage.test_regional_conventions_tab" />
+        <item itemvalue="Python tests.Python tests for test_meeting_page.TestMeetingPage.test_weekly_meetings_tab" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756585743306</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added new page tests">
+      <option name="closed" value="true" />
+      <created>1756708478478</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1756708478478</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
