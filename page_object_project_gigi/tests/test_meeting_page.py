@@ -1,5 +1,3 @@
-import time
-
 import pytest
 
 from page_object_project_gigi.pages.meeting_page import jwMeetingPage

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd0d01c-8a0a-4eca-8a41-cf0d46d75a2b" name="Changes" comment="Added new page tests">
+      <change afterPath="$PROJECT_DIR$/page_object_project_gigi/pages/video_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_object_project_gigi/tests/test_video_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object_project_gigi/pages/meeting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/pages/meeting_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object_project_gigi/tests/data_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/tests/data_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_object_project_gigi/tests/test_meeting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/tests/test_meeting_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,15 +95,23 @@
     "Python tests.Python tests for test_home_page.TestHomePage.test_site_opens_in_different_languages.executor": "Run",
     "Python tests.Python tests for test_home_page.TestHomePage.test_test2.executor": "Run",
     "Python tests.Python tests for test_local.Testlogin.test_correct_login.executor": "Run",
-    "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_circuit_assemblies_tab.executor": "Debug",
-    "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_regional_conventions_tab.executor": "Debug",
+    "Python tests.Python tests for test_meeting_page.TestMeetingPage.executor": "Run",
+    "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_circuit_assemblies_tab.executor": "Run",
+    "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_regional_conventions_tab.executor": "Run",
     "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_search_meeting.executor": "Run",
     "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_search_result.executor": "Run",
     "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_weekly_meetings_tab.executor": "Run",
     "Python tests.Python tests for test_video_page.TestVideoPage.test_play_video.executor": "Run",
+    "Python tests.Python tests for test_video_page.TestVideoPage.test_share_button.executor": "Debug",
     "Python tests.Python tests for test_video_page.TestVideoPage.test_video.executor": "Run",
+    "Python tests.Python tests for test_video_page.TestVideoPage.test_video_categories.executor": "Run",
+    "Python tests.Python tests for test_video_page.TestVideoPage.test_video_language_dropdown.executor": "Run",
+    "Python tests.Python tests for test_video_page.TestVideoPage.test_video_language_dropdown2.executor": "Run",
+    "Python tests.Python tests for test_video_page.TestVideoPage.test_x.executor": "Run",
     "Python tests.Python tests in test_data.py.executor": "Debug",
     "Python.conftest.executor": "Run",
+    "Python.data_file.executor": "Run",
+    "Python.eeeee.executor": "Run",
     "Python.home_page.executor": "Run",
     "Python.login_page.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -124,8 +134,30 @@
       <recent name="C:\Users\Gigi work\PycharmProjects\gigi_final_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_meeting_page.TestMeetingPage.test_search_result">
-    <configuration name="Python tests for page_object_project_gigi.tests.test_article_page.TestArticlePage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_video_page.TestVideoPage.test_share_button">
+    <configuration name="data_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gigi_final_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object_project_gigi/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_object_project_gigi/tests/data_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_video_page.TestVideoPage.test_share_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,11 +168,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;page_object_project_gigi.tests.test_article_page.TestArticlePage&quot;" />
+      <option name="_new_target" value="&quot;test_video_page.TestVideoPage.test_share_button&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_meeting_page.TestMeetingPage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_video_page.TestVideoPage.test_video_language_dropdown" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,11 +183,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_meeting_page.TestMeetingPage&quot;" />
+      <option name="_new_target" value="&quot;test_video_page.TestVideoPage.test_video_language_dropdown&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_meeting_page.TestMeetingPage.test_circuit_assemblies_tab" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_video_page.TestVideoPage.test_video_language_dropdown2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,11 +198,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_meeting_page.TestMeetingPage.test_circuit_assemblies_tab&quot;" />
+      <option name="_new_target" value="&quot;test_video_page.TestVideoPage.test_video_language_dropdown2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_meeting_page.TestMeetingPage.test_regional_conventions_tab" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_video_page.TestVideoPage.test_x" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,47 +213,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_meeting_page.TestMeetingPage.test_regional_conventions_tab&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_meeting_page.TestMeetingPage.test_search_result" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="gigi_final_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object_project_gigi/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_meeting_page.TestMeetingPage.test_search_result&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_meeting_page.TestMeetingPage.test_weekly_meetings_tab" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="gigi_final_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object_project_gigi/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_meeting_page.TestMeetingPage.test_weekly_meetings_tab&quot;" />
+      <option name="_new_target" value="&quot;test_video_page.TestVideoPage.test_x&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_meeting_page.TestMeetingPage.test_search_result" />
-        <item itemvalue="Python tests.Python tests for test_meeting_page.TestMeetingPage" />
-        <item itemvalue="Python tests.Python tests for test_meeting_page.TestMeetingPage.test_circuit_assemblies_tab" />
-        <item itemvalue="Python tests.Python tests for test_meeting_page.TestMeetingPage.test_regional_conventions_tab" />
-        <item itemvalue="Python tests.Python tests for test_meeting_page.TestMeetingPage.test_weekly_meetings_tab" />
+        <item itemvalue="Python tests.Python tests for test_video_page.TestVideoPage.test_share_button" />
+        <item itemvalue="Python tests.Python tests for test_video_page.TestVideoPage.test_video_language_dropdown" />
+        <item itemvalue="Python.data_file" />
+        <item itemvalue="Python tests.Python tests for test_video_page.TestVideoPage.test_video_language_dropdown2" />
+        <item itemvalue="Python tests.Python tests for test_video_page.TestVideoPage.test_x" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756708478478</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added new page tests">
+      <option name="closed" value="true" />
+      <created>1756846172972</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756846172972</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,7 +351,17 @@
           <line>38</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/page_object_project_gigi/tests/test_video_page.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="x[11]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
