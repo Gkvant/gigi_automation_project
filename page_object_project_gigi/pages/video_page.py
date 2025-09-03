@@ -1,8 +1,6 @@
-from playwright.sync_api import Page, TimeoutError, Error
-
 
 class jwVideoPage:
-    def __init__(self, page: Page):
+    def __init__(self, page):
         self.page = page
         self.go_to_video_page()
 
@@ -40,7 +38,7 @@ class jwVideoPage:
         field_value = field.input_value()
         return field_value
 
-    def get_result_after_click_copy_button(self):
+    def get_result_after_clicking_copy_button(self):
         copy_button = self.page.get_by_text("Copy Link").nth(1)
         field = self.page.locator("input.shareLink").nth(1)
         copy_button.click()
@@ -49,8 +47,3 @@ class jwVideoPage:
         self.page.keyboard.press("Control+V")
         copy_value = field.input_value()
         return copy_value
-
-
-
-
-

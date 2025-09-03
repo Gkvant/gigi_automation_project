@@ -6,12 +6,13 @@ class jwHomePage:
         self.page.goto("https://www.jw.org/en/")
 
     def get_number_of_languages_that_site_is_translated(self):
+        # Goal to get number of languages that site is currently translated
         language_button = self.page.locator("[class='tertiaryButton siteFeaturesItem jsChooseSiteLanguage']")
         language_button_link = language_button.get_attribute("href")
         self.page.goto("https://www.jw.org/" + language_button_link)
 
         paragraph = self.page.locator("p")
-        language_number = paragraph.locator("span").text_content().replace(",","")
+        language_number = paragraph.locator("span").text_content().replace(",", "")
         return int(language_number)
 
     def get_jw_copyright(self):

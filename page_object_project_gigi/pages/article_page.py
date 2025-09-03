@@ -1,5 +1,3 @@
-import time
-
 
 class jwArticlePage:
     def __init__(self, page):
@@ -37,6 +35,7 @@ class jwArticlePage:
         return self.page.locator("a", has_text=name)
 
     def click_see_all_button_number_(self, index):
+        # Clicks see all Button with index n from top
         see_all_buttons = self.get_see_all_buttons()
         button = see_all_buttons[index]
         button.click()

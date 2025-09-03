@@ -24,5 +24,5 @@ class TestVideoPage:
         video_page = jwVideoPage(setup_jw_org)
         video_page.click_share_button()
         featured_link = video_page.get_featured_link()
-        copied_link = video_page.get_result_after_click_copy_button()
+        copied_link = video_page.get_result_after_clicking_copy_button()
         assert copied_link == featured_link, f"copied link - {copied_link} not matching featured link - {featured_link}"

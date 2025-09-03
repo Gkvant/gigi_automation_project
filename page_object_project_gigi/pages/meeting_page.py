@@ -10,13 +10,13 @@ class jwMeetingPage:
         self.page.goto("https://apps.jw.org/ui/E/meeting-search.html#/weekly-meetings")
 
     def search_for_(self, input_value):
+        # Fill search Field with desired text
         search_field = self.page.locator("#searchLocation")
         search_field.fill(input_value)
 
     def is_result(self, item_text):
         # Wait for the page to finish loading
         self.page.wait_for_load_state("networkidle")
-
         # Possible search result variations
         possible_results = [
             item_text,
@@ -52,11 +52,13 @@ class jwMeetingPage:
         return result
 
     def if_correct_tab_shown_after_clicking_(self, current_tab_name):
+        # Checks (True/False) if correct tab is chosen
         visible_name = current_tab_name.split(' ')[1]
         self.click_tab_(visible_name)
         tab_title = self.page.get_by_text(visible_name)
         return tab_title.count() == 3  # On Page if correct Tab is selected it will find 3 elements, otherwise only 1 element is found
 
     def click_tab_(self, visible_name):
+        # Click tab that has that name
         tab = self.page.get_by_text(visible_name).first
         tab.click()
