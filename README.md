@@ -1,6 +1,11 @@
 Hello, my name is Gigi.
 
 This is my automation Project.
-The automation part of the course based on Playwright over Python by using Pytest, GIT and Page Object design pattern.
+It showcases web automation using the following tools and practices:
+- Playwright with Python
+- Pytest for test execution
+- Git for version control
+- Page Object Model (POM) design pattern
 
-I implemented learned topics in current automation project over a real Web site - https://www.jw.org/en/
+The automation is implemented on a real website: https://www.jw.org/en/
+
