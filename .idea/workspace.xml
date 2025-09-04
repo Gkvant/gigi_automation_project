@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbd0d01c-8a0a-4eca-8a41-cf0d46d75a2b" name="Changes" comment="Final Version 1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object_project_gigi/pages/article_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/pages/article_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object_project_gigi/pages/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/pages/home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object_project_gigi/pages/meeting_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/pages/meeting_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object_project_gigi/pages/video_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/pages/video_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object_project_gigi/tests/test_video_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_project_gigi/tests/test_video_page.py" afterDir="false" />
-    </list>
+    <list default="true" id="bbd0d01c-8a0a-4eca-8a41-cf0d46d75a2b" name="Changes" comment="Final Version 1.1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +95,7 @@
     "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_search_meeting.executor": "Run",
     "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_search_result.executor": "Run",
     "Python tests.Python tests for test_meeting_page.TestMeetingPage.test_weekly_meetings_tab.executor": "Run",
+    "Python tests.Python tests for test_video_page.TestVideoPage.executor": "Run",
     "Python tests.Python tests for test_video_page.TestVideoPage.test_play_video.executor": "Run",
     "Python tests.Python tests for test_video_page.TestVideoPage.test_share_button.executor": "Debug",
     "Python tests.Python tests for test_video_page.TestVideoPage.test_video.executor": "Run",
@@ -324,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756930402355</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Final Version 1.1">
+      <option name="closed" value="true" />
+      <created>1756936130109</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756936130109</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,7 +346,8 @@
     <MESSAGE value="Change in comments" />
     <MESSAGE value="Added new page tests" />
     <MESSAGE value="Final Version 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Version 1.0" />
+    <MESSAGE value="Final Version 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Version 1.1" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
