@@ -7,7 +7,7 @@ It showcases web automation using the following tools and practices:
 - Git for version control
 - Page Object Model (POM) design pattern
 
-### [*See video Demo*](https://drive.google.com/file/d/1JJ0BpNnAWh0-LzEbtFwjFXVzWqcFABaZ/view?usp=sharing)
+### [*See Minute Demo*](https://drive.google.com/file/d/1JJ0BpNnAWh0-LzEbtFwjFXVzWqcFABaZ/view?usp=sharing)
 
 The automation is implemented on a real website: https://www.jw.org/en/
 
